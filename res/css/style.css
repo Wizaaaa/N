@@ -65,6 +65,29 @@ body {
 .galery p{
     margin : 0;
 }
+.s {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.s img {
+    max-width: 70%;
+    height: auto;
+    margin: 5px;
+    border-radius: 25px;
+}
+.galerie {
+    display: flex;
+    align-items: center;
+}
+.galerie a {
+    text-decoration: none;
+    color: #44054b;
+    font-size: 28px;
+}
+
 
 @media screen and (min-width: 1300px){
     .obsah {
@@ -72,5 +95,11 @@ body {
     }
     .countup {
         font-size: 35px;
+    }
+    .s img {
+        max-width: 20%;
+    }
+    .s {
+        flex-direction: row;
     }
 }
