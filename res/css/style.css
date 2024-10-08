@@ -37,9 +37,11 @@ body {
     margin: 0 5px 0 5px;
 }
 .countup {
-    font-size: 35px;
+    font-size: 23px;
+    font-weight: 500;
     padding: 15px 0 15px 0;
 }
+/*<-------Index------->*/
 .pocitac {
     padding: 0 10px 0 10px;
 }
@@ -50,19 +52,25 @@ body {
 }
 .obsah {
     margin: 20px 0 20px 0;
-    width: 1200px;
+    width: 95%;
     background-color: #3a0040;
     padding: 25px;
     border-radius: 30px;
     box-shadow: 5px -10px 5px #2c0b30b3;
 }
-.obsah p {
-    margin: 0;
-}
 .datum {
     float: right;
+    margin-top: 15px;
+}
+.galery p{
+    margin : 0;
 }
 
-.galery p{
-    margin: 0;
+@media screen and (min-width: 1300px){
+    .obsah {
+        width: 80%;
+    }
+    .countup {
+        font-size: 35px;
+    }
 }
